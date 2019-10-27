@@ -1,0 +1,16 @@
+Q4: Can we do nested IF-THEN-ELSE in Cortex-M4?
+A: No.
+
+If we look in the IT Section of [1] (section: 3.10.3),
+under restrictions we find that the following instructions
+are not permitted inside IT block.
+
+-> IT
+-> CBZ and CBNZ
+-> CPSID and CPSIE
+
+Hence, we cannot do nested IF-THEN-ELSE in Cortex-M4.
+
+References:
+
+1. http://infocenter.arm.com/help/topic/com.arm.doc.dui0553a/DUI0553A_cortex_m4_dgug.pdf
