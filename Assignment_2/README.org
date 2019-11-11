@@ -1,10 +1,11 @@
-This folder contains implementations of /tan(x)/ and e^x in ARM-Cortex M4.
+This folder contains implementations of /tan(x)/ and e^x in ARM-Cortex M4. These
+were implemented as part of Assignment 2 of Advanced Arm Architectures course.
 
 * Project Structure:
 
   - *.s files - contains the assembly code.
-                Q1_IMT2016012.s contains implementation of e^x and Q2_IMT2016012.s
-		contains implementation of /tan(x)/
+                Q1_IMT2016012.s contains implementation of e^x and
+                Q2_IMT2016012.s contains implementation of /tan(x)/
   - images/ - This folder contains images which compare the values which i got
               with the values computed from Google's calculator. Image files 
 	      are named according to the question. Question 1's image is named
